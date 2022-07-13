@@ -1,0 +1,30 @@
+{
+  "name": "hello-prisma",
+  "version": "1.0.0",
+  "description": "Learn how to create a new Node.js or TypeScript project from scratch by connecting Prisma to your MongoDB database and generating a Prisma Client for database access. Prisma documentation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joaofaveri/hello-prisma.git"
+  },
+  "keywords": [
+    "prisma",
+    "mongodb",
+    "typescript"
+  ],
+  "author": "João Paulo de Faveri",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joaofaveri/hello-prisma/issues"
+  },
+  "homepage": "https://github.com/joaofaveri/hello-prisma#readme",
+  "devDependencies": {
+    "@types/node": "^18.0.3",
+    "prisma": "^4.0.0",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^4.7.4"
+  }
+}
