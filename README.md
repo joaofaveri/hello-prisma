@@ -14,9 +14,14 @@
 <h4><i>Prisma Documentation</i></h4>
 
   <p align="center">
-    Learn how to create a new Node.js or TypeScript project from scratch by connecting Prisma to your MongoDB database and generating a Prisma Client for database access. The following tutorial introduces you to the Prisma CLI and Prisma Client.
+    Learn how to create a new `Node.js` or `TypeScript` project from scratch by connecting `Prisma` to your `MongoDB` database and generating a `Prisma Client` for database access. The following tutorial introduces you to the `Prisma CLI` and `Prisma Client`.
   </p>
 </div>
+
+## Prerequisites
+- `Node.js` installed on your machine
+- Access to a MongoDB 4.2+ server with a replica set deployment
+
 
 <!-- LICENSE -->
 ## License
