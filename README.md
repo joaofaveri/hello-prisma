@@ -7,20 +7,21 @@
 <br />
 <div align="center">
   <a href="https://github.com/joaofaveri/full-stack-open-2022">
-    <img src="images/prisma.svg" alt="Hello Prisma Tutorial" width="150" height="150">
+    <img src="images/prisma.svg" alt="Hello Prisma Tutorial" width="250" height="250">
   </a>
 
 <h3 align="center">Hello Prisma Tutorial</h3>
 <h4><i>Prisma Documentation</i></h4>
+<br>
 
   <p align="center">
-    Learn how to create a new `Node.js` or `TypeScript` project from scratch by connecting `Prisma` to your `MongoDB` database and generating a `Prisma Client` for database access. The following tutorial introduces you to the `Prisma CLI` and `Prisma Client`.
+    Learn how to create a new Node.js or TypeScript project from scratch by connecting Prisma to your MongoDB database and generating a Prisma Client for database access. The following tutorial introduces you to the Prisma CLI and Prisma Client.
   </p>
 </div>
 
 ## Prerequisites
 - `Node.js` installed on your machine
-- Access to a MongoDB 4.2+ server with a replica set deployment
+- Access to a `MongoDB` 4.2+ server with a replica set deployment
 
 
 <!-- LICENSE -->
