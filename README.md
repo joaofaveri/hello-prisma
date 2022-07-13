@@ -7,7 +7,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/joaofaveri/full-stack-open-2022">
-    <img src="images/programmer.png" alt="Hello Prisma Tutorial" width="80" height="80">
+    <img src=".images/prisma.svg" alt="Hello Prisma Tutorial" width="80" height="80">
   </a>
 
 <h3 align="center">Hello Prisma Tutorial</h3>
