@@ -8,27 +8,52 @@ async function main() {
     
     // Prisma Client queries
     // Create example users
-    await prisma.user.create({
+    // await prisma.user.create({
+    //     data: {
+    //         name: 'Rich',
+    //         email: 'hello@prisma.com',
+    //         posts: {
+    //             create: {
+    //                 title: 'My first post',
+    //                 slug: 'my-first-post',
+    //                 body: 'Lots of really interesting stuff'
+    //             }
+    //         }
+    //     }
+    // })
+
+    // Add a couple of comments to the Post record
+    await prisma.post.update({
+        where: {
+            slug: 'my-first-post'
+        },
         data: {
-            name: 'Rich',
-            email: 'hello@prisma.com',
-            posts: {
-                create: {
-                    title: 'My first post',
-                    slug: 'my-first-post',
-                    body: 'Lots of really interesting stuff'
+            comments: {
+                createMany: {
+                    data: [
+                        { comment: 'Great post!' },
+                        {comment: 'Can\'t wait to read more!'}
+                    ]
                 }
             }
         }
     })
 
     // Get All Users
-    const allUsers = await prisma.user.findMany({
+    // const allUsers = await prisma.user.findMany({
+    //     include: {
+    //         posts: true
+    //     }
+    // })
+    // console.dir(allUsers, {depth: null})
+
+    // Get All Posts
+    const allPosts = await prisma.post.findMany({
         include: {
-            posts: true
+            comments: true
         }
     })
-    console.dir(allUsers, {depth: null})
+    console.dir(allPosts, {depth: null})
 }
 
 main()
